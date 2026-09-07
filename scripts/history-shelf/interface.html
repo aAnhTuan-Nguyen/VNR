@@ -1,0 +1,34 @@
+<main class="experience" id="experience">
+  <div class="scene-shell"><canvas id="scene" aria-label="Kệ sách lịch sử tương tác" tabindex="0"></canvas></div>
+  <header class="editorial-header" aria-label="Dòng Lịch Sử">
+    <div class="editorial-identity"><strong>Dòng Lịch Sử<span class="brand-dot">.</span></strong><span>Thư viện ký ức Việt Nam</span></div>
+    <div class="editorial-index"><span>Sáu cuốn sách · Một dòng chảy</span><span id="palette-label">1911 — nay</span><div class="header-actions"><button id="shelf-reset" type="button">Đặt lại góc nhìn</button><button id="read-2d" type="button">Đọc 2D</button></div></div>
+  </header>
+  <div class="shelf-caption" aria-hidden="true"><span>BỘ SƯU TẬP LỊCH SỬ ĐẢNG</span><span>Chạm một cuốn sách, mở một chặng đường.</span></div>
+  <div class="pointer-label" id="pointer-label" aria-hidden="true"><span id="pointer-label-index"></span><strong id="pointer-label-title"></strong></div>
+  <section class="browse-ui" id="browse-ui" aria-label="Điều hướng kệ sách">
+    <div class="selection"><span class="counter" id="counter">01 / 06</span><div class="selection__copy"><h1 class="selection__title" id="selection-title">Hành trình tìm đường</h1><p class="selection__note" id="selection-note">Lần theo những dấu mốc lịch sử qua từng trang sách.</p></div></div>
+    <div class="browse-actions"><button class="round-button" id="previous" type="button" aria-label="Cuốn trước">←</button><button class="text-button" id="inspect" type="button">Khám phá cuốn sách <span aria-hidden="true">↗</span></button><button class="round-button" id="next" type="button" aria-label="Cuốn sau">→</button></div>
+    <p class="shelf-help">Kéo nền để đổi góc nhìn<br>Cuộn chuột hoặc ← → để chọn sách</p>
+    <nav class="index-nav" aria-label="Sáu giai đoạn lịch sử"><div class="markers" id="markers" role="tablist" aria-label="Chọn giai đoạn"></div></nav>
+  </section>
+  <aside class="detail-panel" id="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detail-title" aria-hidden="true" inert>
+    <button class="close-button" id="close-detail" type="button" aria-label="Đưa sách về kệ">×</button>
+    <p class="eyebrow" id="detail-eyebrow"></p><h2 class="detail-title" id="detail-title"></h2>
+    <p class="detail-deck" id="detail-deck"></p>
+    <ul class="key-points" id="history-points"></ul>
+    <dl class="meta-list" hidden><div><dt>Bìa sách</dt><dd id="detail-binding"></dd></div><div><dt>Khổ sách</dt><dd id="detail-format"></dd></div><div><dt>Chủ đề</dt><dd id="detail-theme"></dd></div><div><dt>Họa tiết</dt><dd id="detail-motif"></dd></div></dl>
+    <div class="history-thumbnails" id="history-thumbnails" aria-label="Ảnh tư liệu của cuốn sách"></div>
+    <div class="page-navigation" role="group" aria-label="Lật trang sách"><button class="page-button" id="previous-page" type="button" aria-label="Trang trước" disabled>←</button><p class="page-status"><strong id="page-label">Bìa sách</strong><span id="page-counter">Kéo bìa để mở</span></p><button class="page-button" id="next-page" type="button" aria-label="Trang sau" disabled>→</button></div>
+    <div class="reading-actions"><button class="text-button primary-read" id="read-clear" type="button">Đọc rõ <span aria-hidden="true">↗</span></button><button class="text-button" id="history-sources" type="button">Nguồn tư liệu</button></div>
+    <div class="detail-controls"><p class="microcopy">Kéo bìa để mở · Kéo trang để lật</p><div class="detail-buttons"><button class="text-button reset-button" id="toggle-book" type="button" aria-pressed="false">Mở sách</button><button class="text-button reset-button" id="reset-view" type="button">Đặt lại góc nhìn</button></div></div>
+  </aside>
+  <div class="sr-only" id="live-region" aria-live="polite"></div>
+  <section class="static-fallback" id="static-fallback" aria-labelledby="fallback-title" hidden>
+    <div class="fallback__header"><div><p class="fallback__kicker">Dòng Lịch Sử · Thư viện đọc</p><h2 id="fallback-title">Sáu chặng đường.<br>Một dòng lịch sử.</h2></div><div><p class="fallback__status" id="fallback-status">Bạn vẫn có thể đọc đầy đủ nội dung và xem ảnh tư liệu.</p><button id="restore-3d" class="text-button" type="button">Trở lại kệ 3D</button></div></div>
+    <div id="fallback-books" class="fallback-books"></div><footer class="fallback__footer">Nội dung biên soạn phục vụ học tập. Ảnh có ghi công và giấy phép tại từng cuốn sách.</footer>
+  </section>
+  <div class="loading" id="loading" aria-live="polite"><div class="loading__inner"><div class="loading__mark" aria-hidden="true"></div><p>Đang mở thư viện ký ức…</p></div></div>
+</main>
+<dialog class="reader-dialog" id="history-reader" aria-labelledby="reader-title"><header class="dialog-header"><div><p class="eyebrow" id="reader-period"></p><h2 id="reader-title"></h2></div><button class="dialog-close" id="reader-close" type="button" aria-label="Đóng chế độ đọc">×</button></header><div class="reader-body" id="reader-body"></div><footer class="reader-footer"><button id="reader-prev" type="button">← Trang trước</button><span id="reader-page-status" aria-live="polite"></span><button id="reader-next" type="button">Trang sau →</button></footer></dialog>
+<dialog class="media-dialog" id="history-media" aria-labelledby="media-title"><header class="dialog-header"><h2 id="media-title"></h2><button class="dialog-close" id="media-close" type="button" aria-label="Đóng ảnh tư liệu">×</button></header><div class="media-viewport" id="media-viewport"><img id="media-full" alt=""></div><footer class="media-footer"><div id="media-credit"></div><button id="media-zoom" type="button" aria-pressed="false">Phóng to 2×</button></footer></dialog>

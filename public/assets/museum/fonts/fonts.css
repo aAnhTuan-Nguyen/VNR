@@ -1,0 +1,18 @@
+/* Original variable fonts with Vietnamese coverage; see adjacent OFL texts.
+   Inter v4.1: rsms/inter. Source Serif 4 v4.005: adobe-fonts/source-serif.
+   Regular = 400; semibold = 600. Normal (upright) styles only. */
+@font-face {
+  font-family: 'Inter';
+  src: url('./InterVariable.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('./SourceSerif4Variable-Roman.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}

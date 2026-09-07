@@ -1,0 +1,137 @@
+[
+  {
+    "id": "preparation",
+    "title": "Hành trình tìm đường",
+    "files": [
+      "preparation-front.webp",
+      "preparation-back.webp",
+      "preparation-spine.webp"
+    ],
+    "photo": {
+      "localPath": "/assets/museum/history/nguyen-ai-quoc-1924.jpg",
+      "title": "Nguyễn Ái Quốc tại Đại hội Quốc tế Cộng sản lần thứ V",
+      "creator": "Nhiếp ảnh gia khuyết danh",
+      "date": "1924",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AComrade_Nguyen_Ai_Quoc_%281924%29.jpg",
+      "license": "Public domain (Wikimedia Commons; PD-Vietnam/PD-US)",
+      "alt": "Chân dung tư liệu Nguyễn Ái Quốc năm 1924 tại Moskva",
+      "mediaType": "historical-photo"
+    },
+    "coverChanges": "Ảnh bìa được cắt khung trong bố cục; chữ, đường viền và nền vải là lớp thiết kế riêng. Ảnh nguyên khung được giữ ở thư mục history.",
+    "coverLicense": "Public domain (Wikimedia Commons; PD-Vietnam/PD-US)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AComrade_Nguyen_Ai_Quoc_%281924%29.jpg"
+  },
+  {
+    "id": "revolution",
+    "title": "Mùa thu độc lập",
+    "files": [
+      "revolution-front.webp",
+      "revolution-back.webp",
+      "revolution-spine.webp"
+    ],
+    "photo": {
+      "localPath": "/assets/museum/history/ba-dinh-square-1945.jpg",
+      "title": "Quảng trường Ba Đình — 2/9/1945 (ảnh tư liệu)",
+      "creator": "Tác giả khuyết danh; tư liệu lưu trữ Việt Nam",
+      "date": "1945-09-02",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABa_Dinh_Square_September_2nd%2C_1945.jpg",
+      "license": "Public domain (Wikimedia Commons; PD-Vietnam)",
+      "alt": "Toàn cảnh Quảng trường Ba Đình trong ngày 2 tháng 9 năm 1945",
+      "mediaType": "historical-photo"
+    },
+    "coverChanges": "Ảnh bìa được cắt khung trong bố cục; chữ, đường viền và nền vải là lớp thiết kế riêng. Ảnh nguyên khung được giữ ở thư mục history.",
+    "coverLicense": "Public domain (Wikimedia Commons; PD-Vietnam)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3ABa_Dinh_Square_September_2nd%2C_1945.jpg"
+  },
+  {
+    "id": "resistance",
+    "title": "Kháng chiến và kiến quốc",
+    "files": [
+      "resistance-front.webp",
+      "resistance-back.webp",
+      "resistance-spine.webp"
+    ],
+    "photo": {
+      "localPath": "/assets/museum/history/victory-dien-bien-phu.jpg",
+      "title": "Chiến thắng Điện Biên Phủ",
+      "creator": "Quân đội Nhân dân Việt Nam (theo hồ sơ Commons)",
+      "date": "1954",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVictory_in_Battle_of_Dien_Bien_Phu.jpg",
+      "license": "Public domain (Wikimedia Commons; PD-Vietnam)",
+      "alt": "Lực lượng Việt Minh cắm cờ trên hầm chỉ huy Pháp tại Điện Biên Phủ năm 1954",
+      "mediaType": "historical-photo"
+    },
+    "coverChanges": "Ảnh bìa được cắt khung trong bố cục; chữ, đường viền và nền vải là lớp thiết kế riêng. Ảnh nguyên khung được giữ ở thư mục history.",
+    "coverLicense": "Public domain (Wikimedia Commons; PD-Vietnam)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AVictory_in_Battle_of_Dien_Bien_Phu.jpg"
+  },
+  {
+    "id": "reunification",
+    "title": "Non sông liền một dải",
+    "files": [
+      "reunification-front.webp",
+      "reunification-back.webp",
+      "reunification-spine.webp"
+    ],
+    "photo": {
+      "localPath": "/assets/museum/history/tank-843.jpg",
+      "title": "Xe tăng 843 gắn với ngày 30/4/1975 — ảnh hiện vật năm 2025",
+      "creator": "kitmasterbloke",
+      "date": "2025-04-03 (ảnh chụp hiện vật)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A843_T-54B_tank_-_one_of_two_that_breached_the_Independence_Palace_30th_April_1975.jpg",
+      "license": "CC BY 2.0 (Wikimedia Commons; ghi công tác giả)",
+      "alt": "Xe tăng T-54B số hiệu 843 được trưng bày tại bảo tàng quân sự Việt Nam",
+      "mediaType": "artifact-photo",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "coverChanges": "Ảnh bìa được cắt khung trong bố cục; chữ, đường viền và nền vải là lớp thiết kế riêng. Ảnh nguyên khung được giữ ở thư mục history.",
+    "coverLicense": "CC BY 2.0 (Wikimedia Commons; ghi công tác giả)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    "id": "renovation",
+    "title": "Đất nước chuyển mình",
+    "files": [
+      "renovation-front.webp",
+      "renovation-back.webp",
+      "renovation-spine.webp"
+    ],
+    "photo": {
+      "localPath": "/assets/museum/history/vietnamese-women-1986.jpg",
+      "title": "Đời sống Việt Nam năm 1986",
+      "creator": "Jim Bryant, U.S. Department of Defense",
+      "date": "1986-04-01",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVietnamese_women_do_laundry_beside_pond_with_US_aircraft_wreckage.jpg",
+      "license": "Public domain (U.S. federal government photo)",
+      "alt": "Phụ nữ Việt Nam bên ao nước năm 1986, ảnh lưu trữ công khai",
+      "mediaType": "historical-photo"
+    },
+    "coverChanges": "Ảnh bìa được cắt khung trong bố cục; chữ, đường viền và nền vải là lớp thiết kế riêng. Ảnh nguyên khung được giữ ở thư mục history.",
+    "coverLicense": "Public domain (U.S. federal government photo)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AVietnamese_women_do_laundry_beside_pond_with_US_aircraft_wreckage.jpg"
+  },
+  {
+    "id": "integration",
+    "title": "Việt Nam kết nối",
+    "files": [
+      "integration-front.webp",
+      "integration-back.webp",
+      "integration-spine.webp"
+    ],
+    "photo": {
+      "localPath": "/assets/museum/history/ho-chi-minh-city-2022.jpg",
+      "title": "Đô thị bên sông Sài Gòn — 26/8/2022 (ảnh đương đại)",
+      "creator": "Xuanphuocle",
+      "date": "2022-08-26",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Skyline_2022_(1).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Đường chân trời khu vực Bình Thạnh và hữu ngạn sông Sài Gòn ngày 26/8/2022",
+      "mediaType": "contemporary-photo",
+      "changes": "Thu nhỏ còn 1280 px; không cắt hoặc chỉnh sửa nội dung; giữ CC BY-SA 4.0"
+    },
+    "coverChanges": "Ảnh bìa được cắt khung trong bố cục; chữ, đường viền và nền vải là lớp thiết kế riêng. Ảnh nguyên khung được giữ ở thư mục history.",
+    "coverLicense": "Bìa trước phái sinh: CC BY-SA 4.0; ghi công tác giả ảnh Xuanphuocle",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+]
